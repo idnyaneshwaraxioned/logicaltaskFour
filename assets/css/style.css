@@ -103,24 +103,45 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+main .wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.datatable, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
 
+th, td { padding: 5px; }
+
+th { 
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin: 15px 0;
+  font-size: 17px;
+  color: #fff;
+  background-color: #115ea7;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.btn:hover { box-shadow: none; }
 
 
 
@@ -132,18 +153,7 @@ li {
 =================================*/
 
 /*=================================
-  footer styling starts here
-=================================*/ 
 
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
