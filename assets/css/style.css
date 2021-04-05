@@ -137,11 +137,16 @@ th {
   font-size: 17px;
   color: #fff;
   background-color: #115ea7;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.5);
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
 
-.btn:hover { box-shadow: none; }
+.btn:hover { 
+  border: 1px solid #115ea7;
+  box-shadow: none;
+  background-color: #fff;
+  color: #115ea7;
+}
 
 
 
